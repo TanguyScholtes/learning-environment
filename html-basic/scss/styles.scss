@@ -14,12 +14,24 @@
 body{
     font-size: $base-text-size;
     background-color: $background;
+    color: $text;
 }
 
 .main{
-    width: 100%;
+    width: 90%;
     max-width: $max-width;
     margin: 0 auto;
+}
+
+a{
+    color: $link;
+    &:hover, &:focus{
+        color: $link-hover;
+    }
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: $title;
 }
 
 @import "banner.min";

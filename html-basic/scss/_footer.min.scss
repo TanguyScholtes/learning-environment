@@ -1,17 +1,19 @@
 .footer{
     padding: 1em 0;
-}
-
-.legal{
-    text-align: center;
     line-height: 26px;
     vertical-align: middle;
     font-size: 0.8em;
     width: 90%;
     max-width: 1140px;
+    text-align: center;
+    margin: 1.5em auto;
+}
+
+.legal, .credit{
     margin: 0 auto 1.5em auto;
 }
 
-.pixel-logo{
+.pixel-heart{
+    width: 1em;
     margin: auto 1px 0 1px;
 }

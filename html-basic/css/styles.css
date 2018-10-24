@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ------------ External Imports ------------ */
 /*! normalize.css v1.1.3 | MIT License | git.io/normalize */
 /* ==========================================================================
@@ -515,28 +516,89 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-size: 18px;
   background-color: #e6e6e6;
+  color: black;
 }
 
 .main {
-  width: 100%;
+  width: 90%;
   max-width: 1140px;
   margin: 0 auto;
 }
 
-.footer {
-  padding: 1em 0;
+a {
+  color: #e12683;
 }
 
-.legal {
+a:hover, a:focus {
+  color: #ed80b6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #e12683;
+}
+
+#banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/priscilla-du-preez-697322-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  padding: 2em 0;
+  text-shadow: 2px 2px 5px black;
+}
+
+#banner-content-wrapper {
+  width: 90%;
+  max-width: 1140px;
+  margin: 0 auto;
   text-align: center;
+}
+
+.site-title {
+  max-width: 480px;
+  margin: 1em auto;
+}
+
+.site-subtitle {
+  display: block;
+  text-align: right;
+  font-size: 0.7em;
+  color: white;
+}
+
+.quote-wrapper {
+  margin: 3em 0;
+}
+
+.quote {
+  font-style: italic;
+}
+
+.quote::before {
+  content: "“ ";
+}
+
+.quote::after {
+  content: " ”";
+}
+
+.footer {
+  padding: 1em 0;
   line-height: 26px;
   vertical-align: middle;
   font-size: 0.8em;
   width: 90%;
   max-width: 1140px;
+  text-align: center;
+  margin: 1.5em auto;
+}
+
+.legal, .credit {
   margin: 0 auto 1.5em auto;
 }
 
-.pixel-logo {
+.pixel-heart {
+  width: 1em;
   margin: auto 1px 0 1px;
 }

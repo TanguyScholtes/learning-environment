@@ -1,7 +1,15 @@
 /*--- General ---*/
+$resto-pink: #e12683;
+
 $background: rgb(230, 230, 230);
 $text: black;
-$text-emphasis: #da8f20;
+$text-emphasis: $resto-pink;
 
-$link: rgb(35, 85, 255);
-$link-hover: darken($link, 20%);
+$link: $resto-pink;
+$link-hover: lighten($link, 20%);
+$link-visited: darken($link, 20%);
+
+$banner-text: white;
+$banner-shadow: black;
+$title: $resto-pink;
+$subtitle: white;
