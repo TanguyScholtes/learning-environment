@@ -13,3 +13,9 @@ $banner-text: white;
 $banner-shadow: black;
 $title: $resto-pink;
 $subtitle: white;
+
+$menu-background: $resto-pink;
+$menu-text: white;
+$menu-hover: darken($menu-background, 20%);
+$menu-shadow: $menu-hover;
+$menu-hover-shadow: darken($menu-shadow, 20%);
