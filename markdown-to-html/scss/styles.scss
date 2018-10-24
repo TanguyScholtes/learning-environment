@@ -1,0 +1,54 @@
+/* ------------ External Imports ------------ */
+@import "normalize.min";
+
+/*------- Variables -------*/
+@import "variables.min";
+
+/* ------- Colors ------- */
+@import "colors.min";
+
+/* ------- Fonts ------- */
+@import "fonts.min";
+
+/* ------- General Styles -------*/
+body{
+    font-size: $base-text-size;
+    background-color: $background;
+}
+
+#Banner, .mugshot-wrapper, .navigation, .main{
+    width: 100%;
+    max-width: $max-width;
+    margin: 0 auto;
+}
+
+pre{
+    font-size: 0.8em;
+    padding: 2em !important;
+    margin: 1.5em auto;
+    background-color: $code-background;
+}
+
+a{
+    color: $link;
+    &:visited{
+        color: $link-visited;
+    }
+    &:hover, &:focus, &:visited:hover, &:visited:focus{
+        color: $link-hover;
+    }
+    &:focus{
+        border: 1px dashed rgba(50, 50, 50, 0.8);
+        background-color: rgba(190, 190, 190, 0.8);
+    }
+}
+
+li{
+    margin: 0.5em 0;
+}
+
+@import "banner.min";
+@import "menu.min";
+@import "main.min";
+@import "table.min";
+@import "footer.min";

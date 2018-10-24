@@ -1,0 +1,26 @@
+.mugshot-wrapper{
+    text-align: center;
+}
+
+.mugshot{
+    width: 200px;
+    border-radius: 1em;
+    border: 5px solid gray;
+    box-shadow: 5px 5px 15px rgba(0,0,0, 0.4);
+}
+
+.main{
+    padding: 1em;
+}
+
+.section{
+    padding-bottom: 2em;
+
+    &:last-child{
+        padding-bottom: 0;
+    }
+}
+
+.inline-title{
+    font-weight: bold;
+}

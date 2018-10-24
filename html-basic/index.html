@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="fr" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="fr" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="fr" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="fr" class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>HTML Basic</title>
+    <meta name="description" content="HTML basic exercice">
+    <meta name="author" content="Tanguy Scholtes">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="shortcut icon" type="image/png" href="img/favicon.ico" />
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div id="banner">
+        <h1 class="site-title">Les Restos du Coeur</h1>
+        <p id="quote">
+            <q class="quote">Go hard or go home !</q> <cite class="source">— Larry Dorman, 2009 September 10th</cite>
+        </p>
+    </div>
+
+    <nav>
+        <h2 class="menu-title">Navigation principale</h2>
+
+        <a href="#who" class="internal-link menu-link">Les Restos</a>
+        <a href="#donnate" class="internal-link menu-link">Don</a>
+        <a href="#news">Actualités</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main class="main">
+        <section id="who" class="section">
+            <h2 class="section-title">Qui sommes nous ?</h2>
+            <p><span class="emphasis">Les Restos du Cœur</span> sont une ONG de solidarité et d’engagement caritatif qui considère que <span class="emphasis">chacun a droit à être aidé et nourri décemment</span>, lorsqu’il est dans le besoin. <span class="emphasis">La pauvreté n’est pas une fatalité</span>, encore moins une faute. Notre association  humanitaire agît concrètement pour  le droit de chacun à être accueilli, écouté et nourri quand il se sent exclu de la société. Pour cela, l’Association a besoin du soutien de <span class="emphasis">tous</span>, particuliers ou entreprises, pour récolter des fonds et de la nourriture en suffisance. Car <span class="emphasis">les besoins sont énormes</span>.</p>
+
+            <p>Notre ONG humanitaire a été fondée par <span class="emphasis">Coluche</span>. Les Restos du Cœur travaillent avec d’autres associations caritatives sur le terrain de la pauvreté. Le public des Restos du Coeur ce sont <span class="emphasis">les familles frappées par la crise, les isolés, les réfugiés</span> qui ne peuvent pas s’assurer <span class="emphasis">le minimum pour vivre : un repas</span>. Notre action humanitaire encourage la solidarité en tant qu’ONG, pour préserver la dignité des publics en difficulté, et pour que chaque être humain dans la misère trouve, une main tendue à travers un repas chaud et un accueil. En plus de distribuer <span class="emphasis">des milliers de repas</span> dans ses centres, l’action humanitaire des Restos du Cœur comprend aussi une <span class="emphasis">aide à la santé et l’éducation des enfants, au logement, et un accompagnement à la réinsertion sociale</span>.</p>
+        </section>
+
+        <section id="donnate" class="section">
+            <h2 class="section-title">Faire un don</h2>
+            <p>Notre action existe essentiellement grâce <span class="emphasis">aux donateurs</span>, <span class="emphasis">aux partenaires</span> (des grandes marques) et par l’action de centaines de <span class="emphasis">bénévoles</span> sur le terrain. <span class="emphasis">Chaque don</span>, même le plus infîme, compte.</p>
+            <form id="donnation-form" action="" method="">
+                <p class="donnation-paragraph">
+                    <input type="number" id="donnation-amount" name="donnation-amount" min="0" />
+                    <label for="donnation-amount" class="donnation-label">€</label>
+                </p>
+                <button class="donnation-button button">Faites un don !</button>
+            </form>
+        </section>
+
+        <section id="news" class="section">
+            <h2 class="section-title">Dernières actualités</h2>
+            <article class="news">
+                <h3 class="news-title">EN 2016 LES RESTOS DU COEUR ONT 30 ANS</h3>
+                <img class="news-image" src="img/" alt="">
+                <p>Personne ne pensait en 1986 que les demandes d’aide seraient nécessaires 30 ans plus tard. Malheureusement, nous sommes aujourd’hui encore confrontés à des situations qui motivent la Fédération des restos du coeur de Belgique à demander l’aide de chacun.</p>
+                <p>Les plus démunis d’entre nous ont besoin d’aide pas de pitié.</p>
+                <p>Nous vous remercions de tout coeur pour votre aide financière.</p>
+            </article>
+            <article class="news">
+                <h3 class="news-title">1846 mercis</h3>
+                <img class="news-image" src="img/" alt="">
+                <p><a href="https://www.facebook.com/pg/restosducoeur.be/fundraisers/?ref=page_internal">Sur Facebook</a>, il existe une possibilité de récolter des fonds pour les Restos du Coeur de Belgique à l'occasion de votre anniversaire par exemple.</p>
+                <p>Sous cette forme, nous avons eu la surprise de voir que Chantal P., Patrick D., Patrick B., Caroline S., Eugénie F., Aurore V., Françoise B., Zak, Erik L., Manuel C., Sophie Y., Leonoras L., Chris M., Manon H. ont déjà récolté 1846 euros !</p>
+                <p>1846 mercis à eux ... et à vous aussi si vous voulez suivre leur exemple.</p>
+            </article>
+            <article class="news">
+                <h3 class="news-title">FLAVOUR 4 ALL</h3>
+                <img class="news-image" src="img/" alt="">
+                <p>Nouvelle collaboration avec Knorr, notre nouveau partenaire pour une durée de 2 ans. Ils ont filmé dans nos Restos et d’autres projets sont en perspective…</p>
+                <iframe class="news-video" src="https://www.youtube.com/embed/2UiYuu0c2RQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </article>
+        </section>
+
+        <section id="contact" class="section">
+            <h2 class="section-title">Nous contacter</h2>
+            <p>Les 15 Restos du coeur de Belgique</p>
+            <article class="resto">
+                <h3 class="resto-title">Le Resto du Cœur d'Arlon</h3>
+                <p>Repas chauds, colis, logements d’insertion, service social, gestion budgétaire.</p>
+                <button class="resto-button button">0495/54 24 06</button>
+            </article>
+            <article class="resto">
+                <h3 class="resto-title">Le Resto du Cœur d'Assenede</h3>
+                <p>Colis alimentaires, Repas chauds hebdomadaires, Distribution de vêtements, Excursions culturelles</p>
+                <button class="resto-button button">0474/27 26 04</button>
+            </article>
+            <article class="resto">
+                <h3 class="resto-title">Le Resto du Cœur de Charleroi</h3>
+                <p>Repas chauds, service social, médiation de dettes, repas à emporter pour enfants scolarisés</p>
+                <button class="resto-button button">071/20 07 91</button>
+            </article>
+            <article class="resto">
+                <h3 class="resto-title">Le Resto du Cœur de Gembloux</h3>
+                <p>Repas chauds du soir de septembre à avril les mardis et les jeudis dès 18h00. Service social : tous les mardis et jeudis.</p>
+                <button class="resto-button button">0499/14 68 10</button>
+            </article>
+            <article class="resto">
+                <h3 class="resto-title">Le Resto du Cœur de Laeken</h3>
+                <p>Repas chauds sur le temps de midi toute l’année, petit-déjeuner, activités socio-culturelles, insertion socioprofessionnelle.</p>
+                <button class="resto-button button">02/420 60 87</button>
+            </article>
+            <article class="resto">
+                <h3 class="resto-title">Le Resto du Cœur de La Louvière</h3>
+                <p>Colis alimentaires, vêtements de seconde main, fabrication de produits écologique multi-usage, coiffeuse et esthéticienne tous les deux mois, café philo tous les mois.</p>
+                <button class="resto-button button">0496/95 78 48</button>
+            </article>
+            <article class="resto">
+                <h3 class="resto-title">Le Resto du Cœur de Liège</h3>
+                <p>Repas chauds de midi, accueil petit-déjeuner, Coin maman-bébé, dispensaire médical, service social, accès douche, coin bibliothèque, repas scolaires.</p>
+                <button class="resto-button button">04/344 08 00</button>
+            </article>
+            <article class="resto">
+                <h3 class="resto-title">Le Resto du Cœur de Marche</h3>
+                <p>Repas chauds, colis alimentaires, service social.</p>
+                <button class="resto-button button">084/31 59 67</button>
+            </article>
+            <article class="resto">
+                <h3 class="resto-title">Le Resto du Cœur de Mouscron</h3>
+                <p>Repas chauds le midi d’octobre à fin mars, Colis alimentaires, Accueil social / chauffoir: De 9h à 13h, Service social: Du lundi au vendredi, de 9h à 14h, Atelier cuisine (1x/ mois), Dispensaire médical et pharmacie, Distribution de vêtements</p>
+                <button class="resto-button button">056/58 88 39</button>
+            </article>
+            <article class="resto">
+                <h3 class="resto-title">Le Resto du Cœur de Namur</h3>
+                <p>Repas chauds de midi toute l’année, colis alimentaires, accueil petit-déjeuner, école de devoirs, coin internet-informatique, animation socioculturelle, bibliothèque, logements à l’année, boutique de droit, permanences sociales et juridiques, consultations sociales, médiation de dette.</p>
+                <button class="resto-button button">081/22 53 23</button>
+            </article>
+            <article class="resto">
+                <h3 class="resto-title">Le Resto du Cœur d'Ostende</h3>
+                <p>Repas chauds, colis alimentaires, vêtements, animations.</p>
+                <button class="resto-button button">059/50 08 37</button>
+            </article>
+            <article class="resto">
+                <h3 class="resto-title">Le Resto du Cœur de Quiévrain</h3>
+                <p>Repas chauds, colis alimentaires, permanences sociales et administratives, lavoir et coin hygiène, vêtements de seconde main.</p>
+                <button class="resto-button button">065/78 05 83</button>
+            </article>
+            <article class="resto">
+                <h3 class="resto-title">Le Resto du Cœur de Saint-Gilles</h3>
+                <p>Repas chauds, colis alimentaires, distribution de vêtements chauds et de couvertures, épicerie sociale, bibliothèque, rinsertion socioprofessionnelle, accès douches, Atelier de réintégration, remise à niveau et alphabétisation…</p>
+                <button class="resto-button button">02/538 92 76</button>
+            </article>
+            <article class="resto">
+                <h3 class="resto-title">Le Resto du Cœur de Verviers</h3>
+                <p>Repas chauds, colis alimentaires, service social.</p>
+                <button class="resto-button button">087/33 63 63</button>
+            </article>
+            <article class="resto">
+                <h3 class="resto-title">Le Resto du Cœur de Wavre</h3>
+                <p>Distribution de colis alimentaires deux fois par semaine sur rendez-vous. Notre équipe de volontaires pour la distribution de colis est actuellement au complet.</p>
+                <button class="resto-button button">0477/89 82 18</button>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="legal">Created with <img class="pixel-heart" src="http://tanguyscholtes.be/jdr-characters/img/pixel-heart.png" alt="love" width="16px"> by <a href="http://tanguyscholtes.be/">Tanguy Scholtes</a>, 2018.</p>
+    </footer>
+
+    <script src="js/smoothScroll.js"></script>
+</body>
+</html>

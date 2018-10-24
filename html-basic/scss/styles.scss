@@ -1,0 +1,28 @@
+/* ------------ External Imports ------------ */
+@import "normalize.min";
+
+/*------- Variables -------*/
+@import "variables.min";
+
+/* ------- Colors ------- */
+@import "colors.min";
+
+/* ------- Fonts ------- */
+@import "fonts.min";
+
+/* ------- General Styles -------*/
+body{
+    font-size: $base-text-size;
+    background-color: $background;
+}
+
+.main{
+    width: 100%;
+    max-width: $max-width;
+    margin: 0 auto;
+}
+
+@import "banner.min";
+@import "menu.min";
+@import "main.min";
+@import "footer.min";
