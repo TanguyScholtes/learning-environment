@@ -519,12 +519,6 @@ body {
   color: black;
 }
 
-.main {
-  width: 90%;
-  max-width: 1140px;
-  margin: 0 auto;
-}
-
 a {
   color: #e12683;
 }
@@ -537,15 +531,43 @@ h1, h2, h3, h4, h5, h6 {
   color: #e12683;
 }
 
+.button {
+  padding: 0.5em 1em;
+  background-color: #e12683;
+  color: white;
+  border: 3px solid #e12683;
+  border-radius: 1em;
+  font-weight: bold;
+  transition: background-color 500ms ease, border 500ms ease;
+}
+
+.button:hover, .button:focus {
+  color: white;
+  background-color: #ba1a6a;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+  border: 3px solid #8d1450;
+  transition: background-color 500ms ease, border 500ms ease;
+}
+
+.emphasis {
+  color: #e12683;
+  font-weight: bold;
+}
+
+.float-left {
+  float: left;
+  margin: 0 2em 1em 0;
+}
+
 #banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/priscilla-du-preez-697322-unsplash.jpg");
+  color: white;
+  padding: 2em 0;
+  text-shadow: 2px 2px 5px black;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  color: white;
-  padding: 2em 0;
-  text-shadow: 2px 2px 5px black;
 }
 
 #banner-content-wrapper {
@@ -563,12 +585,12 @@ h1, h2, h3, h4, h5, h6 {
 .site-subtitle {
   display: block;
   text-align: right;
-  font-size: 0.7em;
+  font-size: 0.6em;
   color: white;
 }
 
 .quote-wrapper {
-  margin: 3em 0;
+  margin: 5em 0 3em 0;
 }
 
 .quote {
@@ -615,15 +637,137 @@ h1, h2, h3, h4, h5, h6 {
   transition: background-color 500ms ease;
 }
 
+.section {
+  width: 90%;
+  max-width: 1140px;
+}
+
+.section-title {
+  margin-bottom: 2em;
+}
+
+.section-title:last-child {
+  margin-bottom: 0;
+}
+
+.section, #donnate {
+  margin: 0 auto 4em auto;
+}
+
+#contact {
+  margin: 0 auto;
+}
+
+#donnate, #contact {
+  padding: 2em 0;
+}
+
+#donnate {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/remi-walle-86579-unsplash.jpg");
+  text-shadow: 2px 2px 5px black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+#contact {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/victor-hugo-180133-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+.news, .resto {
+  border: 2px solid #e12683;
+  border-radius: 1em;
+  padding: 1em;
+  color: black;
+  flex-grow: 0;
+  flex-shrink: 1;
+  display: inline-block;
+  margin-bottom: 1.5em;
+}
+
+.news p, .resto p {
+  font-size: 0.9em;
+}
+
+.news {
+  width: 28%;
+}
+
+.resto {
+  width: 20%;
+  position: relative;
+  padding-bottom: 4em;
+  text-shadow: none;
+  background-color: #e6e6e6;
+}
+
+.news-title, .resto-title {
+  margin-top: 0;
+}
+
+.news-wrapper, .resto-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.resto-wrapper {
+  margin-top: 3em;
+}
+
+.news-video {
+  width: 100%;
+}
+
+.news-image {
+  display: block;
+  margin: 1.5em auto;
+  border-radius: 1em;
+}
+
+.tel {
+  margin-right: 0.5em;
+}
+
+.resto-button {
+  width: 86%;
+  position: absolute;
+  left: 1em;
+  bottom: 1em;
+}
+
 .footer {
-  padding: 1em 0;
   line-height: 26px;
   vertical-align: middle;
   font-size: 0.8em;
+  text-align: center;
+  background-color: #e12683;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+.footer a {
+  color: #ed80b6;
+}
+
+.footer a:hover, .footer a:focus {
+  color: #fad9e9;
+}
+
+.footer-content-wrapper {
   width: 90%;
   max-width: 1140px;
-  text-align: center;
-  margin: 1.5em auto;
+  padding: 1.5em 0;
+  margin: 0 auto;
 }
 
 .legal, .credit {
@@ -633,4 +777,20 @@ h1, h2, h3, h4, h5, h6 {
 .pixel-heart {
   width: 1em;
   margin: auto 1px 0 1px;
+}
+
+.donnation-button {
+  display: inline-block;
+  margin-left: 2em;
+}
+
+#donnation-form {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.form-input {
+  border: 2px solid #e12683;
+  border-radius: 1em;
+  padding: 0.5em;
 }

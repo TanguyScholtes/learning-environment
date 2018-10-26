@@ -1,26 +1,20 @@
 /* ------------ External Imports ------------ */
-@import "normalize.min";
+@import "normalize";
 
 /*------- Variables -------*/
-@import "variables.min";
+@import "variables";
 
 /* ------- Colors ------- */
-@import "colors.min";
+@import "colors";
 
 /* ------- Fonts ------- */
-@import "fonts.min";
+@import "fonts";
 
 /* ------- General Styles -------*/
 body{
     font-size: $base-text-size;
     background-color: $background;
     color: $text;
-}
-
-.main{
-    width: 90%;
-    max-width: $max-width;
-    margin: 0 auto;
 }
 
 a{
@@ -34,7 +28,39 @@ h1, h2, h3, h4, h5, h6{
     color: $title;
 }
 
-@import "banner.min";
-@import "menu.min";
-@import "main.min";
-@import "footer.min";
+.button{
+    padding: 0.5em 1em;
+    background-color: $button-background;
+    color: $button-text;
+    border: 3px solid $button-border;
+    border-radius: 1em;
+    font-weight: bold;
+    transition: background-color 500ms ease,
+        border 500ms ease;
+
+    &:hover, &:focus{
+        color: $button-text-hover;
+        background-color: $button-background-hover;
+        text-shadow: 2px 2px 10px $button-shadow;
+        border: 3px solid $button-border-hover;
+        transition: background-color 500ms ease,
+            border 500ms ease;
+
+    }
+}
+
+.emphasis{
+    color: $text-emphasis;
+    font-weight: bold;
+}
+
+.float-left{
+    float: left;
+    margin: 0 2em 1em 0;
+}
+
+@import "banner";
+@import "menu";
+@import "main";
+@import "footer";
+@import "form";

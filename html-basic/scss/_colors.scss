@@ -1,0 +1,38 @@
+/*--- General ---*/
+$resto-pink: #e12683;
+
+$background: rgb(230, 230, 230);
+$text: black;
+$text-emphasis: $resto-pink;
+$text-shadow: black;
+
+$link: $resto-pink;
+$link-hover: lighten($link, 20%);
+$link-visited: darken($link, 20%);
+
+$banner-text: white;
+$title: $resto-pink;
+$subtitle: white;
+
+$menu-background: $resto-pink;
+$menu-text: white;
+$menu-hover: darken($menu-background, 20%);
+$menu-shadow: $menu-hover;
+$menu-hover-shadow: darken($menu-shadow, 20%);
+
+$button-text: white;
+$button-background: $resto-pink;
+$button-background-hover: darken($button-background, 10%);
+$button-text-hover: $button-text;
+$button-shadow: rgba(0,0,0, 0.6);
+$button-border: $button-background;
+$button-border-hover: darken($button-border, 20%);
+
+$input-border: $resto-pink;
+
+$article-border: $resto-pink;
+
+$footer-background: $resto-pink;
+$footer-text: white;
+$footer-link: lighten($link, 20%);
+$footer-link-hover: lighten($footer-link, 20%);

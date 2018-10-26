@@ -1,0 +1,106 @@
+.section{
+    width: 90%;
+    max-width: $max-width;
+}
+
+.section-title{
+    margin-bottom: 2em;
+
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
+
+.section, #donnate{
+    margin: 0 auto 4em auto;
+}
+
+#contact{
+    margin: 0 auto;
+}
+
+#donnate, #contact{
+    padding: 2em 0;
+}
+
+#donnate{
+    background: linear-gradient( rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url('../img/remi-walle-86579-unsplash.jpg');
+    text-shadow: 2px 2px 5px $text-shadow;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+#contact{
+    background: linear-gradient( rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url('../img/victor-hugo-180133-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 2px 2px 5px $text-shadow;
+}
+
+.news, .resto{
+    border: 2px solid $article-border;
+    border-radius: 1em;
+    padding: 1em;
+    color: black;
+    flex-grow: 0;
+    flex-shrink: 1;
+    display: inline-block;
+    margin-bottom: 1.5em;
+    & p{
+        font-size: 0.9em;
+    }
+}
+
+.news{
+    width: 28%;
+}
+
+.resto{
+    width: 20%;
+    position: relative;
+    padding-bottom: 4em;
+    text-shadow: none;
+    background-color: $background;
+}
+
+.news-title, .resto-title{
+    margin-top: 0;
+}
+
+.news-wrapper, .resto-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.resto-wrapper{
+    margin-top: 3em;
+}
+
+.news-video{
+    width: 100%;
+}
+
+.news-image{
+    display: block;
+    margin: 1.5em auto;
+    border-radius: 1em;
+}
+
+.tel{
+    margin-right: 0.5em;
+}
+
+.resto-button{
+    width: 86%;
+    position: absolute;
+    left: 1em;
+    bottom: 1em;
+}
