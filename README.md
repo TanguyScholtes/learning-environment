@@ -10,5 +10,4 @@ You can find the list of exercices on the [LIE-Hamilton's BeCode promotion](http
 - [Curriculum vitae](https://github.com/TanguyScholtes/Mon-CV), 5th exercise of the serie. We created a HTML & CSS CV and hosted it on a GitHub Page. [Check the result out here](https://tanguyscholtes.github.io/Mon-CV/). As usual, you can read the full instructions of the exercise in the README.md of the repository.
 - [VCard](https://github.com/TanguyScholtes/VCard) is the 6th exercise. The goal is to create a VCard using HTML & CSS. You can [see the result here](https://tanguyscholtes.github.io/VCard/).
 - [Star-Wars-Crawl](https://github.com/TanguyScholtes/Star-Wars-Crawl) is the 7th exercise. The goal is to replicate the opening crawl of Star Wars using HTML & CSS animations. It was made in collaboration with [Stephane Wiertz](https://github.com/stwiertz). You can [see the result here](https://tanguyscholtes.github.io/Star-Wars-Crawl/).
-
-More to come soon. Stay tuned !
+- [Starting web development](https://github.com/TanguyScholtes/starting-web-development/tree/development) is the 8th and last exercise of the serie. The goal is to replicate a mockup in HTML & CSS.
